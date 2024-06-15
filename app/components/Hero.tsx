@@ -1,3 +1,4 @@
+"use client";
 import { HeroSwiper } from "./swipers/HeroSwiper";
 
 const Hero = () => {
@@ -13,7 +14,10 @@ const Hero = () => {
           loop
           preload="none"
         >
-          <source src="/videos/hero-vid.mp4" type="video/mp4" />
+          <source
+            src="https://res.cloudinary.com/ddthn74qt/video/upload/v1718470873/hero-vid_kbo8un.mp4"
+            type="video/mp4"
+          />
         </video>
       </div>
       <div className="hero__content mt-[3rem] absolute top-[20%] left-0 w-full h-full small:top-0 small:flex small:justify-between small:gap-[7rem] small:items-center">
