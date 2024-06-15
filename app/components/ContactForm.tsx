@@ -43,9 +43,8 @@ const ContactForm = () => {
                   </label>
                   <textarea
                     name="message"
-                    type="message"
-                    col="10"
-                    rows="5"
+                    cols={10}
+                    rows={5}
                     className="form-control"
                   ></textarea>
                 </div>
