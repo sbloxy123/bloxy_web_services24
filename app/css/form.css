@@ -74,7 +74,7 @@ input:-webkit-autofill {
   color: rgb(247, 214, 182, 1);
   font-size: 1.6rem;
   letter-spacing: 0.1em;
-  transition: 350ms;
+  transition: 300ms;
   &:hover {
     color: var(--dark-orange);
     text-decoration: none;

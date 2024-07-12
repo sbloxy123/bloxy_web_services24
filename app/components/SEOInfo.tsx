@@ -13,37 +13,30 @@ export const SEOInfo = () => {
         <h2 className="relative uppercase pb-[3rem] small:pb-[4rem] mx-auto w-[100%] text-center small:text-left">
           SEO (Search Engine Optimisation)
         </h2>
+
         <p className="relative py-[1rem]">
-          The SEO landscape is forever changing and search engines are
-          continually trying to improve the way search terms return the most
-          reliable and up to date results to their customers. There’s a number
-          of factors that Search Engines consider as a reliable and ‘promotable’
-          link. One of those factors is page speed and as of 2021, Google
-          started ranking faster websites higher than those that have similar
-          content`.
+          The SEO landscape is forever evolving, with search engines
+          continuously refining their algorithms to present the most relevant
+          and up-to-date results. Among the key factors influencing rankings is
+          page speed; since 2021, Google has prioritized faster-loading
+          websites. My approach leverages the latest web technologies to ensure
+          that your website is optimized for speed, user experience, and
+          customization, which are crucial for enhancing search engine rankings.
         </p>
         <p className="relative py-[1rem]">
-          By using the latest web technologies, my websites are fully optimised
-          for speed, user experience and customisation to enhance search engine
-          ranking. Where appropriate I support content with ‘Schema.org markup’
-          which is basically optimised coding markup in which search engines use
-          to understand what a website, page or article is essentially about.
-          Images are optimised for fast loading speeds and I use plugins and
-          software to ensure optimum html markup is used throughout my sites for
-          search engines to acknowledge when ranking and processing a website.
+          I enhance site content with Schema.org markup—a coding standard that
+          helps search engines understand the details of your website, such as
+          the purpose of a page or the subject of an article. Additionally, I
+          optimize images for quick loading and use advanced plugins and
+          software to ensure optimal HTML markup, making your website more
+          favorable in search engine evaluations.
         </p>
         <p className="relative py-[1rem]">
-          One key thing that is important to mention however is regarding the
-          actual content of your website. Google is able to understand the
-          content of your website and although I can help guide Google to
-          understand what to look for and where (as mentioned previously), it’s
-          important that you have good quality, up to date and relevant content
-          throughout your website. Content writers and SEO specialists are a
-          great way to make sure you capitalise on the website I build for you
-          (Although this can depend on how niche your business is, in which case
-          we can probably be a bit more flexible), however with the use of Ai,
-          we can work together on creating fluid and captivating content for
-          both SEO and customer purposes.
+          It&apos;s important to note the role of content quality in SEO
+          success. While employing content writers and SEO specialists can
+          certainly enhance your site&apos;s performance, I strongly leverage
+          the powerful use of AI tools as a prime method to create compelling
+          content that serves both SEO goals and user engagement.
         </p>
       </div>
     </section>

@@ -14,13 +14,14 @@ export const CMSInfo = () => {
           CMS (Content Management System)
         </h2>
         <p className="relative py-[1rem]">
-          Although my choice of CMS is Sanity.io, the choice is ultimately
-          yours. I choose to work with Sanity.io due to it’s ability to be fully
-          customised which ultimately provides you with a simple yet feature
-          rich editor for your content. If you have a CMS that you’re familiar
-          with and you would rather stick with that, that’s fine! Due to the
-          nature of the web technologies I work with, I can plug into almost any
-          CMS and build from this.
+          While I prefer using Sanity.io for its high customizability and rich
+          feature set, the choice of CMS is ultimately yours. Sanity.io offers a
+          user-friendly editor that simplifies content management without
+          sacrificing functionality. However, if you have a preferred CMS
+          you&apos;re already comfortable with, I&apos;m flexible. Thanks to the
+          versatile web technologies I utilize, I can integrate and build on
+          virtually any CMS to meet your specific needs and ensure your website
+          operates smoothly and efficiently.
         </p>
       </div>
     </section>

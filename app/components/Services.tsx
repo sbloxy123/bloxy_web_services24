@@ -6,6 +6,7 @@ import { services } from "@/data/services";
 import { useEffect, useState } from "react";
 
 import { usePathname } from "next/navigation";
+import { ButtonLink } from "./ButtonLink";
 
 export const Services = () => {
   const pathname = usePathname();
@@ -78,6 +79,11 @@ export const Services = () => {
               })}
             </div>
           </div>
+          <ButtonLink
+            buttonText="Learn More"
+            url="/services"
+            aria="learn more about my services"
+          />
         </div>
       </section>
     </div>

@@ -28,11 +28,11 @@ export const ServicePageIntro = () => {
             custom={1}
             className="services__intro__text pt-[3rem] max-w-[550px] mx-auto small:ml-0"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim
-            leo, pharetra id arcu convallis, euismod malesuada felis. Sed
-            eleifend turpis tellus, et finibus dui semper sit amet. Etiam
-            dignissim quam quis diam aliquet, ut congue ex lobortis. Donec erat
-            sapien, venenatis id pretium non, ullamcorper a lacus.
+            From initial design to ongoing maintenance, I provide comprehensive
+            solutions that streamline operations and bolster your digital
+            strategy. My approach integrates advanced tools to enhance both the
+            aesthetics and functionality of your website, backed by data-driven
+            insights to optimize performance and engagement.
           </motion.p>
           <motion.p
             variants={fadeInAnimationVariants}
@@ -42,11 +42,24 @@ export const ServicePageIntro = () => {
             custom={2}
             className="services__intro__text pt-[3rem] max-w-[550px] mx-auto small:ml-0"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc enim
-            leo, pharetra id arcu convallis, euismod malesuada felis. Sed
-            eleifend turpis tellus, et finibus dui semper sit amet. Etiam
-            dignissim quam quis diam aliquet, ut congue ex lobortis. Donec erat
-            sapien, venenatis id pretium non, ullamcorper a lacus.
+            As an integral part of your team, I am committed to enhancing your
+            online presence and driving your business&apos;s success. My
+            expertise spans a broad range of web development services, tailored
+            to meet the unique needs of each client. By utilizing cutting-edge
+            technologies like Next.js, I ensure that your website is not only
+            fast and SEO-friendly but also stands out to the right audience.
+          </motion.p>
+          <motion.p
+            variants={fadeInAnimationVariants}
+            initial="initial"
+            whileInView="animate"
+            viewport={{ once: true }}
+            custom={3}
+            className="services__intro__text pt-[3rem] max-w-[550px] mx-auto small:ml-0"
+          >
+            My aim is to strengthen your brand identity and align marketing
+            efforts with your goals, while providing secure, efficient hosting
+            and support to ensure your website stays technologically advanced.
           </motion.p>
         </div>
         <div className="services__intro__text--line__hide"></div>

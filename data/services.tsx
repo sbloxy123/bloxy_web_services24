@@ -28,7 +28,7 @@ export const services: Service[] = [
     key: 1,
     title: "Development",
     intro:
-      "By using modern technologies, I'm able to build fast and interactive sites that your audience will enjoy visiting. Nobody likes to visit a clunky, slow website and it can be detrimental to your business.",
+      "I use modern technologies to build fast, interactive websites that offer a seamless user experience. Avoid the pitfalls of slow, clunky sites and enhance your business with efficient web solutions.",
     icon: <Code fill="currentColor" />,
     showOnServicePage: true,
     scroll__id: "#dev",
@@ -37,7 +37,7 @@ export const services: Service[] = [
     key: 2,
     title: "CMS (Content Management Service) integration",
     intro:
-      "CMSs offer a fantastic way to manage your content by yourself. You've likely heard of Wordpress?.. this is a CMS. I can integrate a number of these great services such as Sanity, Strapi and Wordpress to your website - all providing excellent performance results.",
+      "CMSs let you manage your content independently. I can integrate popular options like Sanity, Strapi, and WordPress into your site, ensuring excellent performance and ease of use.",
     icon: <Monitor fill="currentColor" />,
     showOnServicePage: true,
     scroll__id: "#cms",
@@ -47,7 +47,7 @@ export const services: Service[] = [
     key: 3,
     title: "Design",
     intro:
-      "Website design is an important part of your online presence. The design is the first thing your audience will see and it provides them with an insight into how you view them as a customer and how much they can trust you.",
+      "Website design is crucial for your online presence. I use Figma for designs, offering great sharing capabilities and realistic prototyping to reflect how you value customers and build trust in your brand.",
     icon: <Sketch fill="currentColor" />,
     showOnServicePage: true,
     scroll__id: "#design",
@@ -56,7 +56,7 @@ export const services: Service[] = [
     key: 4,
     title: "SEO",
     intro:
-      "A website sitting higher in Search Engine results is a great way to bring in warm leads from people searching for terms that directly relate to your business.",
+      "SEO helps your website rank higher in search results, attracting warm leads. I use schema.org for enhanced search visibility and Google Analytics to track performance and customer demographics.",
     icon: <SEO fill="currentColor" />,
     showOnServicePage: true,
     scroll__id: "#seo",
@@ -65,7 +65,7 @@ export const services: Service[] = [
     key: 5,
     title: "Branding & Marketing",
     intro:
-      "You might want to think about branding your email templates, leaflets, business cards etc to match with your new website.",
+      "Ensure consistent branding across all materials, including email templates, leaflets, and business cards, to match your new website. Strengthen your brand identity and create a cohesive, professional image.",
     icon: <Branding fill="currentColor" />,
     showOnServicePage: false,
     scroll__id: "#branding",
@@ -74,7 +74,7 @@ export const services: Service[] = [
     key: 6,
     title: "Support & Hosting",
     intro:
-      "Choosing the right hosting platform can be complicated so I can recommend where to host your site to provide you with reliability and performance. Once you're happy with your new site you're good to go. For a small retainer, I can provide you with ongoing support.",
+      "Selecting the right hosting platform is crucial for reliability and performance. I provide expert recommendations and, for a small retainer, offer ongoing support to ensure your site remains secure and efficient.",
     icon: <Support fill="currentColor" />,
     showOnServicePage: false,
     scroll__id: "#support",

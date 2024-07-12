@@ -17,38 +17,38 @@ export const Process = () => {
     {
       title: "1. Quick Chat",
       description:
-        "I need about 15 minutes of your time to learn more about your business and where you want to take it",
+        "I need 15 minutes to learn about your business goals and vision",
       icon: <Call fill="currentColor" />,
     },
     {
       title: "2. Content",
       description:
-        "Once a plan is in place, I will explain the details of what I need to get started on your site",
+        "Once the plan is set, I'll outline exactly what I need from you to begin your site.",
       icon: <Content fill="currentColor" />,
     },
 
     {
       title: "3. Mockup",
       description:
-        "I provide you with wireframes and designs to fit your company branding and requirements we have discussed",
+        "I'll deliver wireframes and designs tailored to your brand and our discussed requirements.",
       icon: <Wireframe fill="currentColor" />,
     },
     {
       title: "4. Edits",
       description:
-        "If you want to make any changes, now is a perfect time to have another chat",
+        "If you have changes, let's discuss them now—perfect timing for adjustments.",
       icon: <Browser fill="currentColor" />,
     },
     {
       title: "5. Develop",
       description:
-        "Leave this bit with me! This is the part where I use my expertise to make the site interactive, functional and SEO friendly",
+        "Leave this to me! I'll use my expertise to craft an interactive, functional, and SEO-friendly site.",
       icon: <Data fill="currentColor" />,
     },
     {
       title: "6. Launch",
       description:
-        "Time to start seeing what a difference a custom website can make!",
+        "Launch time! See the impact of your custom website with Google Analytics insights.",
       icon: <Rocket fill="currentColor" />,
     },
   ];

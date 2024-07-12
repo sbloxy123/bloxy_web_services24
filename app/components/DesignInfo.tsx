@@ -21,8 +21,9 @@ const designSlides: DesignSlide[] = [
     id: 1,
     title: "Wireframes",
     text: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
+      "Wireframes serve as the architectural blueprint for your website, laying the foundation for design and development. This initial stage is crucial as it helps to identify and address any concerns early in the process, ensuring a smooth transition from concept to completion. By outlining where content will be placed and what features are to be included, wireframes clarify the site's structure before visual elements are added.",
+
+      "The benefits of wireframing are substantial. They foster creativity and decision-making, allowing you to visualize the user journey and make informed choices about what to include on your site. Wireframes also streamline the collaboration process, making it easier to communicate ideas and modifications between stakeholders. Ultimately, they ensure that every aspect of the site aligns with your strategic goals, providing a clear path to a user-friendly and effective online presence.",
     ],
     image: {
       src: wireframeImage,
@@ -33,8 +34,9 @@ const designSlides: DesignSlide[] = [
     id: 2,
     title: "Design",
     text: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
+      "After the foundational wireframes, the design stage brings your brand to life by integrating your unique colors, imagery, and overall aesthetic. This phase is essential in transforming the structural outline into a visually appealing and cohesive website. The design process not only enhances the look and feel of your site but also aligns every visual element with your brand's identity, ensuring consistency across all touchpoints.",
+
+      "During this stage, I carefully select color schemes and graphics that resonate with your target audience, enhancing user engagement and reinforcing your brand's message. The design phase also allows for the exploration of visual strategies that can improve user experience, such as intuitive layouts, engaging graphics, and interactive elements. By the end of this process, your website will not only be attractive but also functionally optimized to meet the needs of your visitors, making every interaction meaningful and impactful.",
     ],
     image: {
       src: designImage,
@@ -45,15 +47,9 @@ const designSlides: DesignSlide[] = [
     id: 3,
     title: "Prototype",
     text: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
-      "Aliquam porttitor mi sed luctus interdum. Interdum et malesuada fames ac ante ipsum",
+      "The prototyping stage is a dynamic phase where the static designs come to life. This crucial step involves linking all the individual pages together to form a fully interactive model of your website. Unlike simple design mockups, a prototype allows you and other stakeholders to experience the actual flow of the website, interacting with its features as if it were live. This not only gives a realistic feel of the final product but also provides an opportunity to test usability and fine-tune the user experience.",
+
+      "Prototyping is invaluable because it exposes any potential issues in navigation and functionality before the development stage. It ensures that transitions between pages are smooth and that the user interface is intuitive, creating a seamless experience for visitors. This stage allows for iterative feedback and adjustments, minimizing costly revisions later in the development process and accelerating the launch timeline. By the end of prototyping, you will have a clear and tangible representation of how your website will function, ensuring alignment with your vision and user expectations.",
     ],
     image: {
       src: prototypeImage,
@@ -76,12 +72,22 @@ export const DesignInfo = () => {
           <h2 className="uppercase pb-[3rem] small:pb-[4rem] mx-auto w-[100%] text-center small:text-left">
             design
           </h2>
-          <p className="small:w-[80%]">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            et pharetra tortor. Praesent volutpat massa eget lorem suscipit, at
-            sagittis dui vehicula. Aliquam porttitor mi sed luctus interdum.
-            Interdum et malesuada fames ac ante ipsum primis in faucibus. Duis
-            vel risus vel lectus congue aliquam eu sodales ante.
+          <p className="small:w-[80%] py-[1rem]">
+            If you&apos;re looking to kickstart your website with a sleek,
+            professional design, I utilize Figma, a leading design tool, to
+            create detailed wireframes, designs, and prototypes. This crucial
+            stage not only provides a clear visual of how your website will look
+            and feel but also plays a pivotal role in translating your branding
+            elements—like colors and fonts—into tangible designs. This process
+            not only aligns with your vision but also opens up possibilities for
+            new ideas and enhancements that could appeal to your end-users.
+          </p>
+          <p className="small:w-[80%] py-[1rem]">
+            If you come to me with a pre-existing design, rest assured, I am
+            adept at transforming it into a pixel-perfect, fully interactive
+            website. My goal is to develop a site that not only meets but
+            exceeds your expectations, ensuring that every detail is precise and
+            true to your original concept.
           </p>
 
           <div className="absolute top-0 right-0 w-[350px] h-auto opacity-[0.08] text-theme_peach-900 translate-x-[18rem]">

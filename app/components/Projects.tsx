@@ -2,6 +2,7 @@
 import Image from "next/image";
 import projectData from "@/data/projectData";
 import { motion } from "framer-motion";
+import { ButtonLink } from "./ButtonLink";
 
 export const Projects = () => {
   const fadeInAnimationVariants = {
@@ -138,16 +139,12 @@ export const Projects = () => {
                     }}
                     viewport={{ once: true }}
                   >
-                    <div className="button__link mt-[3rem]">
-                      <a
-                        className="px-[1.4rem] py-[0.7rem] uppercase w-full h-full border-spacing-1 border-[1px] border-theme_green-900 rounded-sm"
-                        href={url}
-                        target="_blank"
-                      >
-                        Visit website
-                        <span className="pl-[1rem]">›</span>
-                      </a>
-                    </div>
+                    <ButtonLink
+                      buttonText="Visit Website"
+                      url={url}
+                      target="_blank"
+                      aria={`visit ${title}'s website (opens in new window)`}
+                    />
                   </motion.div>
                 )}
               </div>
