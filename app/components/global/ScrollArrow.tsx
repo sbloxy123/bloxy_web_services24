@@ -11,7 +11,8 @@ export const ScrollArrow = () => {
   }
 
   // Add event listener for scroll
-  window.addEventListener("scroll", handleScroll);
+  typeof window !== "undefined" &&
+    window.addEventListener("scroll", handleScroll);
 
   return (
     <div

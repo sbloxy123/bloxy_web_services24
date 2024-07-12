@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import me from "@/public/images/site/me.jpg";
 import { motion } from "framer-motion";
