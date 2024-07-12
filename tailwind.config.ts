@@ -66,6 +66,7 @@ const config: Config = {
           "sans-serif",
         ],
         display: ["var--font-poppins"],
+        caslon: ["var--font-caslon"],
       },
       screens: {
         "2xsmall": "320px",

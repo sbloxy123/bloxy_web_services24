@@ -2,13 +2,14 @@ import "../css/form.css";
 
 const ContactForm = () => {
   return (
-    <div className="my-formy h-screen bg-theme_black-900">
+    <div className="my-formy h-screen xsmall:h-auto py-[6rem] bg-theme_black-900">
       <div className="content-container py-12">
         <div className="d-flex justify-content-center align-items-center login-box">
           <div className="">
-            <h2 className="text-theme_white-900 text-center w-[100%] small:w-[40%] mx-auto py-[6rem]">
+            <h2 className="text-theme_white-900 text-center w-full small:w-[40%] mx-auto py-[6rem]">
               GET IN TOUCH
             </h2>
+
             <div className="col-span-12 text-left">
               <form
                 action="https://formspree.io/f/meqvjrla"
@@ -30,7 +31,7 @@ const ContactForm = () => {
                     htmlFor="email"
                     className="form-control-label  text-theme_white-900 m-0"
                   >
-                    YOUR EMAIL
+                    YOUR EMAIL ADDRESS
                   </label>
                   <input name="email" type="email" className="form-control" />
                 </div>
@@ -45,16 +46,25 @@ const ContactForm = () => {
                     name="message"
                     cols={10}
                     rows={5}
-                    className="form-control"
+                    className="form-control bg-theme_black-900 text-white text-[1.6rem] pt-[2rem]"
                   ></textarea>
                 </div>
-                <div className="p-0 ">
+                <div className="p-0 mt-[6rem]">
                   <button type="submit" className="contact-button">
                     SUBMIT
                   </button>
                 </div>
               </form>
             </div>
+          </div>
+          <div className="text-center bg-theme_peach-900  text-theme_black-900 mx-auto max-w-[750px] mt-[6rem] small:w-[60%]">
+            <p className="contact__para p-[5%] text-[1.6rem]">
+              With today&apos;s technologies it&apos;s incredibly easy to
+              communicate and over video calls, emails and messaging services.
+              However, I&apos;m based in North Hertfordshire so am in a great
+              location to meet in person if you&apos;re based in London,
+              Hertfordshire Cambridgshire, Essex and surrounds.
+            </p>
           </div>
         </div>
       </div>

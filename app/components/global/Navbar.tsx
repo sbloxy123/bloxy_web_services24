@@ -60,7 +60,6 @@ const navLinks = [
   { name: "About", href: "/about" },
   { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
-  { name: "FAQ's", href: "/faqs" },
   { name: "Contact", href: "/contact" },
 ];
 
@@ -69,10 +68,15 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [searchIsOpen, setSearchIsOpen] = useState(false);
   const [hoveredLink, setHoveredLink] = useState<string | null>(null);
+  const [darkText, setDarkText] = useState<boolean | false>(false);
 
   useEffect(() => {
     // Reset hover state when the route changes
     setHoveredLink(null);
+
+    pathname == "/about" || pathname == "/projects" || pathname == "/contact"
+      ? setDarkText(true)
+      : setDarkText(false);
   }, [pathname]);
 
   const [isScrolled, setIsScrolled] = useState(false);
@@ -107,8 +111,8 @@ function Navbar() {
           <div className="flex items-center justify-between h-20 px-[5%] small:px-layout-small">
             <Link
               href="/"
-              className={`header__logo text-[1.6rem] ${
-                isScrolled ? "text-theme_black-900" : "text-white"
+              className={`header__logo text-[2rem] font-caslon font-[400] tracking-normal ${
+                isScrolled || darkText ? "text-theme_black-900" : "text-white"
               }`}
               aria-label="home"
             >
@@ -121,8 +125,10 @@ function Navbar() {
               <div className="hidden small:block">
                 <nav>
                   <ul
-                    className={`nav__link__list flex items-center justify-between w-[45vw] max-w-[645px] uppercase font-[400] font-sans  text-[clamp(1.1rem,1vw,1.4rem)] small:pl-[1.9rem] ${
-                      isScrolled ? "text-theme_black-900" : "text-white"
+                    className={`nav__link__list flex items-center justify-between w-[38vw] max-w-[515px] capitalize  font-sans  text-[clamp(1.1rem,1vw,1.4rem)] small:pl-[1.9rem] ${
+                      isScrolled || darkText
+                        ? "text-theme_black-900"
+                        : "text-white"
                     }`}
                   >
                     {navLinks.map((link) => {
@@ -145,8 +151,10 @@ function Navbar() {
                             <div
                               className={`${
                                 isActive && "nav__item__active"
-                              } nav__item__link text-right ${
-                                isScrolled ? "nav__item__link--scrolled" : ""
+                              } font-[300] nav__item__link text-right ${
+                                isScrolled || darkText
+                                  ? "nav__item__link--scrolled"
+                                  : ""
                               }`}
                             >
                               {link.name}
@@ -226,31 +234,26 @@ function Navbar() {
             >
               <motion.ul
                 variants={navVariants} // Control the staggering here
-                className="absolute left-0 w-full h-full px-2 py-20 sm:px-3 flex flex-col justify-start gap-[3rem] bg-theme_peach-900 items-center uppercase font-normal font-sans text-[1.9rem] text-black z-30"
+                className="absolute left-0 w-full h-full px-2 py-20 sm:px-3 flex flex-col justify-start gap-[3rem] bg-theme_peach-900 items-center capitalize  font-sans text-[1.9rem] text-black z-30"
               >
-                {[
-                  "Home",
-                  "About",
-                  "Services",
-                  "Projects",
-                  "FAQs",
-                  "Contact",
-                ].map((text, index) => (
-                  <motion.li key={index} variants={itemVariants}>
-                    <Link
-                      href={
-                        text.includes("Home")
-                          ? "/"
-                          : `/${text.toLowerCase().replace(" ", "")}`
-                      }
-                      onClick={() => setIsOpen(!isOpen)}
-                    >
-                      <div className="flex flex-col justify-center text-center">
-                        <span className="">{text}</span>
-                      </div>
-                    </Link>
-                  </motion.li>
-                ))}
+                {["Home", "About", "Services", "Projects", "Contact"].map(
+                  (text, index) => (
+                    <motion.li key={index} variants={itemVariants}>
+                      <Link
+                        href={
+                          text.includes("Home")
+                            ? "/"
+                            : `/${text.toLowerCase().replace(" ", "")}`
+                        }
+                        onClick={() => setIsOpen(!isOpen)}
+                      >
+                        <div className="flex flex-col justify-center text-center">
+                          <span className="font-[300]">{text}</span>
+                        </div>
+                      </Link>
+                    </motion.li>
+                  )
+                )}
               </motion.ul>
             </motion.nav>
           )}

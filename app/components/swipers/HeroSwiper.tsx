@@ -29,7 +29,7 @@ export const HeroSwiper = () => {
             <Image
               src={project.desktop.src}
               alt={project.desktop.alt}
-              className={`${"desktop__img"} absolute top-0 left-0 w-full h-auto object-cover mix-blend-lighten opacity-80 shadow-[0px_0px_10px_1px] shadow-black`}
+              className={`${"desktop__img"} absolute top-0 left-0 w-full h-auto object-cover mix-blend-lighten  shadow-[0px_0px_10px_1px] shadow-black`}
             />
             <Image
               src={project.mobile.src}

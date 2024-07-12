@@ -1,8 +1,10 @@
-import { Inter, Mulish, Poppins } from "next/font/google";
+import { Inter, Mulish, Poppins, Libre_Caslon_Text } from "next/font/google";
 // import { LocalBusiness, WithContext } from "schema-dts";
 import type { Metadata } from "next";
 import "./globals.css";
-import { Navbar } from "@material-tailwind/react";
+// import { Navbar } from "@material-tailwind/react";
+import Navbar from "./components/global/Navbar";
+import { Footer } from "./components/global/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -14,6 +16,11 @@ const mulish = Mulish({
   weight: ["200", "300", "400", "500", "600", "700", "800", "900"],
   subsets: ["latin"],
   variable: "--font-mulish",
+});
+const caslon = Libre_Caslon_Text({
+  weight: ["400"],
+  subsets: ["latin"],
+  variable: "--font-calson",
 });
 
 // export const metadata: Metadata = {
@@ -93,7 +100,9 @@ export default function RootLayout({
       <body
         className={`${mulish.variable} ${inter.className} ${poppins.variable} `}
       >
+        <Navbar />
         {children}
+        <Footer />
       </body>
       {/* <script
       // causing hydration error.....?

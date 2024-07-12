@@ -81,7 +81,7 @@ export const Projects = () => {
                     index % 2 === 0 && " text-left"
                   } pt-2 pb-2 mb-4 border-b uppercase border-theme_yellow-900 text-theme_yellow-900`}
                 >
-                  Services & Technologies:
+                  Scope:
                 </p>
                 {/* ===== project tags */}
                 <div className="flex gap-1 flex-wrap">
