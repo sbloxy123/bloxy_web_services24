@@ -452,3 +452,10 @@ body {
     border: 2px solid rgba(61, 64, 91, 1);
   }
 }
+
+.open__quote {
+  transform: scale(-1, 1) translate(8rem, -7rem);
+}
+.close__quote {
+  transform: translate(8rem, 9rem);
+}
