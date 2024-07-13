@@ -185,9 +185,9 @@ export default function About() {
               className="col-span-8 small:pl-10"
             >
               <p className="mb-10 m-auto">
-                Next.js is like a special toolbox that helps developers like me
-                create websites and applications more efficiently and with
-                better results.
+                Next.js is an advanced web development framework derived from
+                React, a technology originally created by Facebook, designed to
+                build fast and scalable websites and applications.
               </p>
               <h4 className="mb-4 m-auto font-semibold text-center xsmall:text-left">
                 Here&apos;s how Next.js benefits the websites I create:

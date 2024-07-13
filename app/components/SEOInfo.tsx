@@ -6,7 +6,7 @@ export const SEOInfo = () => {
       id="seo"
       className="development__info relative bg-theme_peach-900 text-theme_black-900"
     >
-      <div className="relative px-[5%] py-[12rem] max-w-[1440px] small:px-layout-small small:mx-auto ">
+      <div className="relative px-[5%] py-[12rem] max-w-[1440px] small:px-layout-small small:mx-auto overflow-hidden small:overflow-visible">
         <div className="absolute top-[6rem] left-0 w-[350px] h-auto opacity-[0.08] text-theme_black-900 translate-x-[-4rem]">
           <SEO fill="currentColor" />
         </div>

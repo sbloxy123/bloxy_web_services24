@@ -6,7 +6,7 @@ export const DevelopmentInfo = () => {
       id="dev"
       className="development__info relative bg-theme_peach-900 text-theme_black-900"
     >
-      <div className="relative px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto ">
+      <div className="relative px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto overflow-hidden small:overflow-visible">
         <div className="absolute top-0 left-0 w-[350px] h-auto opacity-[0.045] text-theme_black-900 translate-x-[-4rem]">
           <Code fill="currentColor" />
         </div>

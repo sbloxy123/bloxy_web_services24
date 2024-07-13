@@ -11,7 +11,7 @@ export const Technologies = async () => {
 
   return (
     <section className="relative bg-theme_white-900 text-theme_black-900">
-      <div className="relative px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto ">
+      <div className="relative px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto overflow-hidden small:overflow-visible">
         <h2 className="uppercase pb-[3rem] small:pb-[4rem] mx-auto w-full text-center small:text-left">
           My Technologies and Tooling
         </h2>

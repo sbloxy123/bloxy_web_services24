@@ -23,7 +23,7 @@ const designSlides: DesignSlide[] = [
     text: [
       "Wireframes serve as the architectural blueprint for your website, laying the foundation for design and development. This initial stage is crucial as it helps to identify and address any concerns early in the process, ensuring a smooth transition from concept to completion. By outlining where content will be placed and what features are to be included, wireframes clarify the site's structure before visual elements are added.",
 
-      "The benefits of wireframing are substantial. They foster creativity and decision-making, allowing you to visualize the user journey and make informed choices about what to include on your site. Wireframes also streamline the collaboration process, making it easier to communicate ideas and modifications between stakeholders. Ultimately, they ensure that every aspect of the site aligns with your strategic goals, providing a clear path to a user-friendly and effective online presence.",
+      "The benefits of wireframing are substantial. They foster creativity and decision-making, allowing you to visualize the user journey and make informed choices about what to include on your site. Wireframes also streamline the collaboration process, making it easier to communicate ideas and modifications between stakeholders. Ultimately, they ensure that every aspect of the site aligns with your strategic goals before being distracted by colours and images, providing a clear path to a user-friendly and effective online presence.",
     ],
     image: {
       src: wireframeImage,
@@ -67,7 +67,7 @@ export const DesignInfo = () => {
 
   return (
     <section id="design" className="relative bg-[#202628] text-white">
-      <div className="px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto ">
+      <div className="px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto overflow-hidden small:overflow-visible">
         <div className="relative">
           <h2 className="uppercase pb-[3rem] small:pb-[4rem] mx-auto w-[100%] text-center small:text-left">
             design

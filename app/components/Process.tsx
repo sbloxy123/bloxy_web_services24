@@ -54,7 +54,7 @@ export const Process = () => {
   ];
   return (
     <section className="py-12 px-0 bg-theme_black-900 text-theme_white-900 h-[80%] font-light tracking-wide">
-      <div className="relative px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto ">
+      <div className="relative px-[5%] py-[6rem] max-w-[1440px] small:px-layout-small small:mx-auto overflow-hidden small:overflow-visible">
         <div className="content-container">
           <motion.h2
             initial={{ x: -100 }}
