@@ -44,11 +44,6 @@ export default function About() {
     },
     {
       key: 5,
-      text: "▸ Already have a Wordpress website?",
-      href: "#Already__have__a__Wordpress__website",
-    },
-    {
-      key: 6,
       text: "▸ How about e-commerce websites?",
       href: "#How about e-commerce websites",
     },

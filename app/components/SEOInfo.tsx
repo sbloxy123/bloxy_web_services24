@@ -10,11 +10,11 @@ export const SEOInfo = () => {
         <div className="absolute top-[6rem] left-0 w-[350px] h-auto opacity-[0.08] text-theme_black-900 translate-x-[-4rem]">
           <SEO fill="currentColor" />
         </div>
-        <h2 className="relative uppercase pb-[3rem] small:pb-[4rem] mx-auto w-[100%] text-center small:text-left">
+        <h2 className="relative uppercase pb-[3rem] small:pb-[4rem] mx-auto w-[100%] text-center small:text-left small:w-[80%] ml-auto mr-0">
           SEO (Search Engine Optimisation)
         </h2>
 
-        <p className="relative py-[1rem]">
+        <p className="relative py-[1rem] small:w-[80%] ml-auto">
           The SEO landscape is forever evolving, with search engines
           continuously refining their algorithms to present the most relevant
           and up-to-date results. Among the key factors influencing rankings is
@@ -23,7 +23,7 @@ export const SEOInfo = () => {
           that your website is optimized for speed, user experience, and
           customization, which are crucial for enhancing search engine rankings.
         </p>
-        <p className="relative py-[1rem]">
+        <p className="relative py-[1rem] small:w-[80%] ml-auto">
           I enhance site content with Schema.org markup—a coding standard that
           helps search engines understand the details of your website, such as
           the purpose of a page or the subject of an article. Additionally, I
@@ -31,7 +31,7 @@ export const SEOInfo = () => {
           software to ensure optimal HTML markup, making your website more
           favorable in search engine evaluations.
         </p>
-        <p className="relative py-[1rem]">
+        <p className="relative py-[1rem] small:w-[80%] ml-auto">
           It&apos;s important to note the role of content quality in SEO
           success. While employing content writers and SEO specialists can
           certainly enhance your site&apos;s performance, I strongly leverage
