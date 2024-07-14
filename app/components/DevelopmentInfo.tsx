@@ -26,7 +26,7 @@ export const DevelopmentInfo = () => {
         <p className="relative py-[1rem] small:w-[80%] ml-auto">
           I commit to a pixel-perfect execution, often enhancing designs with
           the advanced web technologies I employ. My websites are meticulously
-          optimized for all devices, ensuring responsiveness and fast loading
+          optimised for all devices, ensuring responsiveness and fast loading
           times across mobile, tablet, and desktop screens.
         </p>
         <p className="relative py-[1rem] small:w-[80%] ml-auto">

@@ -18,16 +18,16 @@ export const SEOInfo = () => {
           The SEO landscape is forever evolving, with search engines
           continuously refining their algorithms to present the most relevant
           and up-to-date results. Among the key factors influencing rankings is
-          page speed; since 2021, Google has prioritized faster-loading
+          page speed; since 2021, Google has prioritised faster-loading
           websites. My approach leverages the latest web technologies to ensure
-          that your website is optimized for speed, user experience, and
+          that your website is optimised for speed, user experience, and
           customization, which are crucial for enhancing search engine rankings.
         </p>
         <p className="relative py-[1rem] small:w-[80%] ml-auto">
           I enhance site content with Schema.org markup—a coding standard that
           helps search engines understand the details of your website, such as
           the purpose of a page or the subject of an article. Additionally, I
-          optimize images for quick loading and use advanced plugins and
+          optimise images for quick loading and use advanced plugins and
           software to ensure optimal HTML markup, making your website more
           favorable in search engine evaluations.
         </p>

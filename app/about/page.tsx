@@ -230,7 +230,7 @@ export default function About() {
               className="small:pl-10 col-span-8 m-auto"
             >
               <p className="mb-10">
-                Next.js uses optimized pages which require no server-side
+                Next.js uses optimised pages which require no server-side
                 computation, and can be instantly streamed to the end-user from
                 multiple locations. The result is an ultra fast loading
                 experience for your users.

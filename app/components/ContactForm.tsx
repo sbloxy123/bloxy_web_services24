@@ -57,7 +57,7 @@ const ContactForm = () => {
               </form>
             </div>
           </div>
-          <div className="text-center bg-theme_peach-900  text-theme_black-900 mx-auto max-w-[750px] mt-[6rem] small:w-[60%]">
+          {/* <div className="text-center bg-theme_peach-900  text-theme_black-900 mx-auto max-w-[750px] mt-[6rem] small:w-[60%]">
             <p className="contact__para p-[5%] text-[1.6rem]">
               With today&apos;s technology, communication is effortless via
               video calls, emails, and messaging services. Located in North
@@ -65,7 +65,7 @@ const ContactForm = () => {
               you&apos;re based in London, Hertfordshire, Cambridgeshire, Essex,
               or nearby areas
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

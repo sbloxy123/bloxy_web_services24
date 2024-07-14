@@ -22,7 +22,7 @@ export const allIngredients = [
   {
     icon: "",
     label: "4. Organization of the Website's Code",
-    text: "It helps me keep the different parts of your website organized, which makes it easier to find and fix any problems that might come up during and after development.",
+    text: "It helps me keep the different parts of your website organised, which makes it easier to find and fix any problems that might come up during and after development.",
   },
   {
     icon: "",

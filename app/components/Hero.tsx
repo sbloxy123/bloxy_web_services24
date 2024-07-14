@@ -29,7 +29,7 @@ const Hero = () => {
             </h1>
             <p className="text-white text-[1.4rem] mt-[2rem] max-w-[500px] text-center mx-auto leading-[1.8em] small:max-w-[600px] small:ml-0 small:text-left">
               Building high quality and effective websites using the latest web
-              technologies to principles to excel your online prescence against
+              technologies and principles to excel your online prescence against
               your competition
             </p>
           </div>

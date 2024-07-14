@@ -32,7 +32,7 @@ export const ServicePageIntro = () => {
             solutions that streamline operations and bolster your digital
             strategy. My approach integrates advanced tools to enhance both the
             aesthetics and functionality of your website, backed by data-driven
-            insights to optimize performance and engagement.
+            insights to optimise performance and engagement.
           </motion.p>
           <motion.p
             variants={fadeInAnimationVariants}

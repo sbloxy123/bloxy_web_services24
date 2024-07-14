@@ -19,7 +19,7 @@ export const CMSInfo = () => {
           user-friendly editor that simplifies content management without
           sacrificing functionality. However, if you have a preferred CMS
           you&apos;re already comfortable with, I&apos;m flexible. Thanks to the
-          versatile web technologies I utilize, I can integrate and build on
+          versatile web technologies I utilise, I can integrate and build on
           virtually any CMS to meet your specific needs and ensure your website
           operates smoothly and efficiently.
         </p>

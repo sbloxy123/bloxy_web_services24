@@ -34,7 +34,7 @@ const projectData = {
       id: 3,
       title: "Dr Mould",
       summary: [
-        " A comprehensive project involving the full design, development, and hosting for a specialist mould-cleaning company. The website was crafted to prominently feature strong calls to action, effectively showcasing the company's deep knowledge and expertise in mould treatments. Optimized for both desktop and mobile devices, the site ensures that Dr. Mould&apos;s diverse customer base can easily access and navigate through the extensive information and services offered, enhancing user engagement and accessibility.",
+        " A comprehensive project involving the full design, development, and hosting for a specialist mould-cleaning company. The website was crafted to prominently feature strong calls to action, effectively showcasing the company's deep knowledge and expertise in mould treatments. Optimised for both desktop and mobile devices, the site ensures that Dr. Mould&apos;s diverse customer base can easily access and navigate through the extensive information and services offered, enhancing user engagement and accessibility.",
       ],
       date_completed: "2023",
       preview_img: "/images/project_graphics/dr-mould/dr-mould.png",
@@ -45,7 +45,7 @@ const projectData = {
       id: 4,
       title: "liquid coating experts",
       summary: [
-        "A comprehensive redesign and migration of an outdated e-commerce site from OpenCart to a cutting-edge Next.js and Medusa.js platform. The revamped site provides the client full control over inventory and fulfillment through an intuitive Medusa.js admin interface. This project encompassed everything from initial design to development, including customized email templates and robust hosting solutions. Additionally, the transition to Stripe as the payment provider significantly reduced transaction fees, enhancing financial efficiency for the client. This fully customized website now better serves their valued customers, offering a streamlined, user-friendly experience.",
+        "A comprehensive redesign and migration of an outdated e-commerce site from OpenCart to a cutting-edge Next.js and Medusa.js platform. The revamped site provides the client full control over inventory and fulfillment through an intuitive Medusa.js admin interface. This project encompassed everything from initial design to development, including customised email templates and robust hosting solutions. Additionally, the transition to Stripe as the payment provider significantly reduced transaction fees, enhancing financial efficiency for the client. This fully customised website now better serves their valued customers, offering a streamlined, user-friendly experience.",
       ],
       date_completed: "2023 - PRESENT",
       preview_img: "/images/project_graphics/lce/Group6.png",
