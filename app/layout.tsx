@@ -4,7 +4,6 @@ import { LocalBusiness, WithContext } from "schema-dts";
 
 import type { Metadata } from "next";
 import "./globals.css";
-// import { Navbar } from "@material-tailwind/react";
 import Navbar from "./components/global/Navbar";
 import { Footer } from "./components/global/Footer";
 
@@ -26,9 +25,9 @@ const caslon = Libre_Caslon_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Bloxy Web Services | Freelance Web Designer & Developer 👨‍💻",
+  title: "Bloxy Web Services | Freelance Web Designer & Developer",
   description:
-    "🚀 Supercharge your online presence with incredibly fast websites & apps 🚀 - E-Commerce 🛍️ | Lead Gen 🎯 | Business 🏢 | + more!",
+    "Supercharge your online presence with incredibly fast websites & apps - E-Commerce 🛍️ | Lead Gen 🎯 | Business 🏢 | + more!",
   metadataBase: new URL("https://www.bloxywebservices.co.uk"),
   alternates: {
     canonical: "/",
@@ -57,8 +56,18 @@ const jsonLd: WithContext<LocalBusiness> = {
     addressCountry: "United Kingdom",
     postalCode: "SG9 0EA",
   },
-  telephone: "07806615231",
-  email: "stuart@bloxywebservices.co.uk",
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "book a mould treatment",
+    telephone: "+447806615231",
+    email: "stuart@bloxywebservices.co.uk",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: 51.94868891616687,
+    longitude: 0.021126236728081227,
+  },
+
   image: [
     "https://www.bloxywebservices.co.uk/opengraph-image.png?1581b81fa00074ce",
     "/screenshot.png",
