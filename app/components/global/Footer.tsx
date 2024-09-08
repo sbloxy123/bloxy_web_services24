@@ -41,7 +41,7 @@ export const Footer = () => {
       </div>
       <div className="border-b border-theme_black-900 w-[80%] m-auto mb-10"></div>
       {/* <hr className="my-10 h-1 mb-8 w-[50%] mx-auto  bg-theme_black-900"></hr> */}
-      <ul className="p-0 mb-16 text-theme_black-900 px-layout-small xsmall:flex xsmall:flex-wrap xsmall:justify-center">
+      <ul className="p-0 mb-16 text-theme_black-900 px-layout-small xsmall:flex xsmall:flex-wrap xsmall:justify-center small:px-0 small:max-w-[500px] small:mx-auto">
         <li className="w-fit m-auto my-2">
           <Link
             className="hover:text-theme_dark_orange-900 ease-in-out duration-300"

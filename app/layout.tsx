@@ -1,4 +1,5 @@
 import { Inter, Mulish, Poppins, Libre_Caslon_Text } from "next/font/google";
+import { GoogleAnalytics } from "@/lib/GoogleAnalytics";
 
 import { LocalBusiness, WithContext } from "schema-dts";
 
@@ -108,6 +109,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_MEASUREMENT_ID="G-M0Q3NR35G3" />
+
       <body
         className={`${mulish.variable} ${inter.className} ${poppins.variable} `}
       >
