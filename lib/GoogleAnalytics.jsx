@@ -10,9 +10,10 @@ export const GoogleAnalytics = ({ GA_MEASUREMENT_ID }) => {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    const url = pathname + searchParams.toString();
-
-    pageview(GA_MEASUREMENT_ID, url);
+    const url = pathname + searchParams?.toString();
+    if (GA_MEASUREMENT_ID && url) {
+      pageview(GA_MEASUREMENT_ID, url);
+    }
   }, [pathname, searchParams, GA_MEASUREMENT_ID]);
 
   return (
