@@ -2,7 +2,7 @@
 
 import Script from "next/script";
 import { usePathname, useSearchParams } from "next/navigation";
-import { Suspense, useEffect } from "react";
+import { useEffect } from "react";
 import { pageview } from "@/lib/gtagHelper";
 
 export const GoogleAnalytics = ({ GA_MEASUREMENT_ID }) => {
@@ -10,24 +10,22 @@ export const GoogleAnalytics = ({ GA_MEASUREMENT_ID }) => {
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    const url = pathname + searchParams?.toString();
-    if (GA_MEASUREMENT_ID && url) {
-      pageview(GA_MEASUREMENT_ID, url);
-    }
+    const url = pathname + searchParams.toString();
+
+    pageview(GA_MEASUREMENT_ID, url);
   }, [pathname, searchParams, GA_MEASUREMENT_ID]);
 
   return (
-    <Suspense fallback={null}>
-      <>
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
-        />
-        <Script
-          id="google-analytics"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
+    <>
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
@@ -40,9 +38,8 @@ export const GoogleAnalytics = ({ GA_MEASUREMENT_ID }) => {
                     page_path: window.location.pathname,
                 });
                 `,
-          }}
-        />
-      </>
-    </Suspense>
+        }}
+      />
+    </>
   );
 };
