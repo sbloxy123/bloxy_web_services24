@@ -1,13 +1,11 @@
 import { Inter, Mulish, Poppins, Libre_Caslon_Text } from "next/font/google";
-import { GoogleAnalytics } from "@/lib/GoogleAnalytics";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 import { LocalBusiness, WithContext } from "schema-dts";
-
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./components/global/Navbar";
 import { Footer } from "./components/global/Footer";
-import { Suspense } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -110,10 +108,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Suspense fallback={null}>
-        <GoogleAnalytics GA_MEASUREMENT_ID="G-M0Q3NR35G3" />
-      </Suspense>
-
       <body
         className={`${mulish.variable} ${inter.className} ${poppins.variable} `}
       >
@@ -125,6 +119,8 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-M0Q3NR35G3" />
+      {/* <GoogleTagManager gtmId="GTM-GTSD" /> */}
     </html>
   );
 }
