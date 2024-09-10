@@ -22,6 +22,7 @@ export const HeroSwiper = () => {
       modules={[Autoplay, EffectFade]}
       autoplay={{ delay: 10000, stopOnLastSlide: false }}
       effect={"fade"} // or 'slide'
+      watchSlidesProgress={true}
     >
       {heroImages.map((project) => (
         <SwiperSlide key={project.desktop.alt} className="relative pr-0">
@@ -29,11 +30,15 @@ export const HeroSwiper = () => {
             <Image
               src={project.desktop.src}
               alt={project.desktop.alt}
+              loading="eager"
+              priority
               className={`${"desktop__img"} absolute top-0 left-0 w-full h-auto object-cover mix-blend-lighten  shadow-[0px_0px_10px_1px] shadow-black`}
             />
             <Image
               src={project.mobile.src}
               alt={project.mobile.alt}
+              loading="eager"
+              priority
               className={`${"mobile__img"} absolute top-[5%] left-[-5%] w-[20%] h-auto object-cover shadow-[0px_0px_10px_1px] shadow-black`}
             />
           </div>

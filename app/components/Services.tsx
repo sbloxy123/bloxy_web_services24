@@ -61,12 +61,12 @@ export const Services = () => {
                     }}
                     viewport={{ once: true }}
                   >
-                    <div className="h-20 w-20 mb-[3rem] mx-auto small:ml-0 md:col-span-1 md:my-0">
+                    <div className="h-20 w-20 mb-[3rem] mx-auto small:ml-0 md:col-span-1 md:my-0 text-theme_peach-800 opacity-60">
                       {service.icon}
                     </div>
                     <div className="md:col-span-3 text-center mb-5 md:text-left">
                       <div className="h-10 mb-5 sm:mb-10 md:mb-14 lg:mb-8">
-                        <h3 className="text-2xl tracking-wider min-h-[50px]">
+                        <h3 className="text-2xl tracking-wider min-h-[50px] text-theme_peach-900 uppercase pt-[0.5rem]">
                           {service.title}
                         </h3>
                       </div>

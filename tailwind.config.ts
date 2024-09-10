@@ -21,6 +21,7 @@ const config: Config = {
         },
         theme_peach: {
           900: "rgb(247, 214, 182, 1)",
+          800: "rgb(247, 214, 182, 0.8)",
         },
         theme_white: {
           900: "rgb(247, 248, 250, 1)",

@@ -39,10 +39,10 @@ export const Projects = () => {
               className="md:w-[50%] h-fit my-auto"
             >
               {/* ======= TITLE */}
-              <div className="uppercase flex justify-between border-b border-theme_white-900 mb-12">
+              <div className="uppercase flex justify-between border-b pb-[0.4rem] border-theme_white-900 mb-12">
                 <h4>{title}</h4>
                 <h4>
-                  <span className=" pr-2">year:</span> {date_completed}
+                  <span className="pr-2">year:</span> {date_completed}
                 </h4>
               </div>
               {/* ====== MOBILE IMAGE SHOWN */}
