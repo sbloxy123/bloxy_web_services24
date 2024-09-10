@@ -63,10 +63,24 @@ export const Process = () => {
               bounce: 0,
             }}
             viewport={{ once: true }}
-            className="py-12 pb-6 uppercase m-auto w-[100%] tracking-widest font-extralight"
+            className="pt-12 pb-4 uppercase m-auto w-[100%] tracking-widest font-extralight"
           >
             The Process.
           </motion.h2>
+
+          <motion.h3
+            initial={{ x: -100 }}
+            whileInView={{ x: 0 }}
+            transition={{
+              bounce: 0,
+            }}
+            viewport={{ once: true }}
+            className="pb-12 w-[100%] tracking-widest font-extralight text-[1.4rem] max-w-[550px]"
+          >
+            6 key steps I take to ensure your website performs and looks exactly
+            how you want it&nbsp;to.
+          </motion.h3>
+
           <div className="sm:grid m-auto sm:grid-cols-2 md:grid-cols-3">
             {processes.map((step) => {
               return (
@@ -81,14 +95,16 @@ export const Process = () => {
                   }}
                   viewport={{ once: true }}
                 >
-                  <div className="h-[54px] w-[54px] m-6 mx-auto">
+                  <div className="h-[54px] w-[54px] m-6 mx-auto text-theme_peach-800">
                     {step.icon}
                   </div>
 
-                  <h4 className="my-6 mx-0 text-2xl font-normal">
+                  <h4 className="my-6 mx-0 text-2xl font-normal text-theme_peach-900">
                     {step.title}
                   </h4>
-                  <p className="text-theme_white-900">{step.description}</p>
+                  <p className="text-theme_white-900 max-w-[300px] mx-auto">
+                    {step.description}
+                  </p>
                 </motion.div>
               );
             })}

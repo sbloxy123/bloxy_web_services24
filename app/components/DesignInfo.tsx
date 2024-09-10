@@ -101,12 +101,12 @@ export const DesignInfo = () => {
               key={slide.id}
               className={`${
                 activeDesign === slide.id
-                  ? "bg-theme_black-900 text-white border-2 border-b-0 border-theme_peach-900"
-                  : "bg-theme_gray-900 text-theme_black-900 "
+                  ? "bg-theme_black-900 text-white border-2 border-b-0 border-theme_peach-800"
+                  : "bg-slate-800  "
               }  rounded-t-lg text-center duration-100 ease-in`}
             >
               <button
-                className="w-full h-full py-[0.3rem] text-[1.4rem] xsmall:px-[3rem] small:py-[0.9rem] small:px-[5rem]"
+                className="w-full h-full py-[0.3rem] text-[1.4rem] xsmall:px-[3rem] small:py-[0.9rem] small:px-[5rem] tracking-widest uppercase"
                 onClick={() => setActiveDesign(slide.id)}
               >
                 {slide.title}
@@ -136,11 +136,11 @@ export const DesignInfo = () => {
                     </div>
                   </div>
                   <div className="design__item__text pt-[1.5rem] pb-[3rem] px-[1.4rem] xsmall:w-[50%] small:w-[45%] small:px-[3rem] ">
-                    <h3 className="pb-[1rem] xsmall:pt-[3rem]">
+                    <h3 className="pb-[1rem] xsmall:pt-[3rem] tracking-wider">
                       {slide.title}
                     </h3>
 
-                    <div className="h-[25rem] overflow-auto pr-8 small:h-[35rem]">
+                    <div className="about__overflow h-[25rem] overflow-y-auto pr-8 small:h-[35rem]">
                       {slide.text.map((para, index) => (
                         <p key={index} className="py-2">
                           {para}

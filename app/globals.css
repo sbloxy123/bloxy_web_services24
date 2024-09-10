@@ -389,6 +389,25 @@ body {
       background: rgba(247, 214, 182, 0.7);
     }
   }
+  .about__overflow {
+    /* Firefox scrollbar styles */
+    scrollbar-color: rgba(247, 214, 182, 0.7) rgba(247, 214, 182, 0.3); /* Thumb color and track color */
+    scrollbar-width: thin; /* Makes the scrollbar thin */
+
+    /* WebKit browsers (Chrome, Safari) */
+    &::-webkit-scrollbar {
+      width: 8px; /* Width of the scrollbar */
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(247, 214, 182, 0.7); /* Scrollbar thumb color */
+      border-radius: 4px; /* Rounds the scrollbar thumb edges */
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: rgba(247, 214, 182, 0.3); /* Scrollbar track color */
+    }
+  }
 }
 
 .service__box {
