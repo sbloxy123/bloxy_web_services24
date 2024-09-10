@@ -40,7 +40,7 @@ export const ServiceBox = ({
           <h4 className="service__box--title font-normal py-[1rem]">{title}</h4>
           <p className="service__box--intro">{intro}</p>
         </div>
-        <span className="service__box--arrow mb-[-8%] text-[4rem] text-theme_black-900">
+        <span className="service__box--arrow mb-[-8%] text-[4rem] text-theme_dark_brown-900">
           →
         </span>
       </a>
