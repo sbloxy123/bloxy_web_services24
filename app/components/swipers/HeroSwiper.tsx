@@ -48,7 +48,7 @@ export const HeroSwiper = () => {
           </div>
         </SwiperSlide>
       ))}
-      <div className="next__screenshot absolute right-0 heroNavCustom:right-[-50px] mt-[-50px] heroNavCustom:mt-0 top-0 w-[4.4rem] h-[4.4rem] flex justify-center items-center rounded-md bg-theme_peach-900 z-10">
+      <div className="next__screenshot absolute right-0 heroNavCustom:right-[-50px] mt-[-50px] heroNavCustom:mt-0 top-0 w-[4.4rem] h-[4.4rem] flex justify-center items-center rounded-md bg-theme_peach-900 z-10 cursor-pointer">
         <span className="block w-[1.6rem] h-[1.6rem] rotate-180">
           <svg
             viewBox="0 0 16 16"
@@ -62,7 +62,7 @@ export const HeroSwiper = () => {
           </svg>
         </span>
       </div>
-      <div className="prev__screenshot absolute heroNavCustom:right-[-50px] right-[50px] mt-[-50px] heroNavCustom:mt-[50px] top-0 w-[4.4rem] h-[4.4rem] flex justify-center items-center rounded-md bg-theme_peach-900">
+      <div className="prev__screenshot absolute heroNavCustom:right-[-50px] right-[50px] mt-[-50px] heroNavCustom:mt-[50px] top-0 w-[4.4rem] h-[4.4rem] flex justify-center items-center rounded-md bg-theme_peach-900 z-10 cursor-pointer">
         <span className="block w-[1.6rem] h-[1.6rem]">
           <svg
             viewBox="0 0 16 16"

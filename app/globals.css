@@ -227,9 +227,11 @@ body {
   }
   .prev__screenshot.swiper-button-disabled {
     background: rgb(247, 214, 182, 0.3);
+    cursor: default;
   }
   .next__screenshot.swiper-button-disabled {
     background: rgb(247, 214, 182, 0.3);
+    cursor: default;
   }
 }
 
