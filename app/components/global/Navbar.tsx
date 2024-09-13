@@ -235,22 +235,25 @@ function Navbar() {
             >
               <motion.ul
                 variants={navVariants} // Control the staggering here
-                className="absolute left-0 w-full h-full px-2 py-20 sm:px-3 flex flex-col justify-start gap-[3rem] bg-theme_peach-900 items-center capitalize  font-sans text-[1.9rem] text-black z-30"
+                className="absolute left-0 w-full h-full px-2 py-20 sm:px-3 flex flex-col justify-start gap-[2.2rem] bg-theme_peach-900 items-center capitalize font-sans text-[1.9rem] text-black z-30"
               >
                 {["Home", "About", "Services", "Projects", "Contact"].map(
                   (text, index) => (
-                    <motion.li key={index} variants={itemVariants}>
+                    <motion.li
+                      key={index}
+                      variants={itemVariants}
+                      className="flex flex-col justify-center text-center w-full min-h-[4.5rem]"
+                    >
                       <Link
                         href={
                           text.includes("Home")
                             ? "/"
                             : `/${text.toLowerCase().replace(" ", "")}`
                         }
+                        className="h-full w-full flex items-center justify-center"
                         onClick={() => setIsOpen(!isOpen)}
                       >
-                        <div className="flex flex-col justify-center text-center">
-                          <span className="font-[300]">{text}</span>
-                        </div>
+                        <span className="font-[300] text-[2rem]">{text}</span>
                       </Link>
                     </motion.li>
                   )

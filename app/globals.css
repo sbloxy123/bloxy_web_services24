@@ -225,6 +225,27 @@ body {
         transform 2s cubic-bezier(0.175, 0.885, 0.32, 1.075) 400ms;
     }
   }
+  .prev__screenshot,
+  .next__screenshot {
+    transition: background 400ms ease;
+    span {
+      transition: margin 400ms ease;
+    }
+    &:hover {
+      background: rgb(247, 214, 182, 0.8);
+      span {
+        margin-left: -20%;
+      }
+    }
+  }
+  .next__screenshot {
+    &:hover {
+      span {
+        margin-left: 0%;
+        margin-right: -20%;
+      }
+    }
+  }
   .prev__screenshot.swiper-button-disabled {
     background: rgb(247, 214, 182, 0.3);
     cursor: default;
