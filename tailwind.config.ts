@@ -77,6 +77,7 @@ const config: Config = {
         large: "1440px",
         xlarge: "1680px",
         "2xlarge": "1920px",
+        heroNavCustom: "640px",
       },
       padding: {
         "layout-small": "clamp(8rem,11.1vw,16rem)", // Define your custom padding size here
