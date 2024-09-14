@@ -233,16 +233,20 @@ body {
     }
     &:hover {
       background: rgb(247, 214, 182, 0.8);
-      span {
-        margin-left: -20%;
+      @media all and (min-width: 1024px) {
+        span {
+          margin-left: -20%;
+        }
       }
     }
   }
   .next__screenshot {
-    &:hover {
-      span {
-        margin-left: 0%;
-        margin-right: -20%;
+    @media all and (min-width: 1024px) {
+      &:hover {
+        span {
+          margin-left: 0%;
+          margin-right: -20%;
+        }
       }
     }
   }
