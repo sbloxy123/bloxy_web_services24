@@ -16,8 +16,11 @@ export const Footer = () => {
       </Link>
       <br />
       <div className="mb-4 ">
-        <Link className="text-2xl md:text-4xl font-[400]" href="/">
-          Bloxy Web Services.
+        <Link
+          className="text-2xl md:text-4xl font-[400] uppercase tracking-widest"
+          href="/"
+        >
+          Bloxie.
         </Link>
       </div>
       <p className="capitalize text-[1.6rem] font-[300]">

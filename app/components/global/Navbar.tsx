@@ -112,13 +112,13 @@ function Navbar() {
           <div className="flex items-center justify-between h-20 px-[5%] small:px-layout-small">
             <Link
               href="/"
-              className={`header__logo text-[2rem] font-caslon font-[400] tracking-normal ${
+              className={`header__logo text-[2rem] font-caslon font-[400] uppercase tracking-widest ${
                 isScrolled || darkText ? "text-theme_black-900" : "text-white"
               }`}
               aria-label="home"
             >
               {/* header-logo */}
-              Bloxy Web Services.
+              Bloxie.
             </Link>
 
             {/* ====== desktop nav ====== */}

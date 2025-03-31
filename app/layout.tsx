@@ -25,10 +25,10 @@ const caslon = Libre_Caslon_Text({
 });
 
 export const metadata: Metadata = {
-  title: "Bloxy Web Services | Freelance Web Designer & Developer",
+  title: "Bloxie | Freelance Web Designer & Developer",
   description:
     "Supercharge your online presence with incredibly fast websites & apps - E-Commerce 🛍️ | Lead Gen 🎯 | Business 🏢 | + more!",
-  metadataBase: new URL("https://www.bloxywebservices.co.uk"),
+  metadataBase: new URL("https://www.bloxie.co.uk"),
   alternates: {
     canonical: "/",
     languages: {
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
 const jsonLd: WithContext<LocalBusiness> = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://bloxywebservices.co.uk/",
+  "@id": "https://bloxie.co.uk/",
   name: "Stuart Bloxham - Web Designer & Developer",
-  url: "https://www.bloxywebservices.co.uk/",
-  logo: "https://www.bloxywebservices.co.uk/images/icons/logo.svg",
+  url: "https://www.bloxie.co.uk/",
+  logo: "https://www.bloxie.co.uk/images/icons/logo.svg",
   address: {
     "@type": "PostalAddress",
     streetAddress: "Hare Street",
@@ -69,7 +69,7 @@ const jsonLd: WithContext<LocalBusiness> = {
   },
 
   image: [
-    "https://www.bloxywebservices.co.uk/opengraph-image.png?1581b81fa00074ce",
+    "https://www.bloxie.co.uk/opengraph-image.png?1581b81fa00074ce",
     "/screenshot.png",
   ],
   openingHoursSpecification: {

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://bloxywebservices.co.uk/sitemap.xml",
+    sitemap: "https://bloxie.co.uk/sitemap.xml",
   };
 }

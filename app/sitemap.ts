@@ -3,31 +3,31 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://bloxywebservices.co.uk",
+      url: "https://bloxie.co.uk",
       lastModified: new Date(),
       changeFrequency: "yearly",
       priority: 1,
     },
     {
-      url: "https://bloxywebservices.co.uk/about",
+      url: "https://bloxie.co.uk/about",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
     {
-      url: "https://bloxywebservices.co.uk/services",
+      url: "https://bloxie.co.uk/services",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.5,
     },
     {
-      url: "https://bloxywebservices.co.uk/projects",
+      url: "https://bloxie.co.uk/projects",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.8,
     },
     {
-      url: "https://bloxywebservices.co.uk/contact",
+      url: "https://bloxie.co.uk/contact",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.4,
