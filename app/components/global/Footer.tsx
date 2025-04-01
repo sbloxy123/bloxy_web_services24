@@ -15,12 +15,12 @@ export const Footer = () => {
         />
       </Link>
       <br />
-      <div className="mb-4 ">
+      <div className="mb-8 ">
         <Link
           className="text-2xl md:text-4xl font-[400] uppercase tracking-widest"
           href="/"
         >
-          Bloxie.
+          Bloxie
         </Link>
       </div>
       <p className="capitalize text-[1.6rem] font-[300]">

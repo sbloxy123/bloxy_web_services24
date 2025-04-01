@@ -68,10 +68,7 @@ const jsonLd: WithContext<LocalBusiness> = {
     longitude: 0.021126236728081227,
   },
 
-  image: [
-    "https://www.bloxie.co.uk/opengraph-image.png?1581b81fa00074ce",
-    "/screenshot.png",
-  ],
+  image: ["https://www.bloxie.co.uk/opengraph-image.png"],
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
     dayOfWeek: [
