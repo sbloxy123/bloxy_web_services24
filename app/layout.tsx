@@ -27,7 +27,7 @@ const caslon = Libre_Caslon_Text({
 export const metadata: Metadata = {
   title: "Bloxie | Freelance Web Designer & Developer",
   description:
-    "Supercharge your online presence with incredibly fast websites & apps - E-Commerce 🛍️ | Lead Gen 🎯 | Business 🏢 | + more!",
+    "Supercharge your online presence with fast, smooth and SEO-friendly websites & apps. Expert in E-Commerce 🛍️, Lead Generation 🎯, Business Websites 🏢, and more. Serving Hertfordshire and the UK!",
   metadataBase: new URL("https://www.bloxie.co.uk"),
   alternates: {
     canonical: "/",
@@ -47,10 +47,10 @@ const jsonLd: WithContext<LocalBusiness> = {
   "@id": "https://bloxie.co.uk/",
   name: "Stuart Bloxham - Web Designer & Developer",
   url: "https://www.bloxie.co.uk/",
-  logo: "https://www.bloxie.co.uk/images/icons/logo.svg",
+  logo: "https://www.bloxie.co.uk/images/icons/logo.png",
   address: {
     "@type": "PostalAddress",
-    streetAddress: "Hare Street",
+    streetAddress: "1 Mead Villa, Hare Street",
     addressLocality: "Buntingford",
     addressRegion: "Hertfordshire",
     addressCountry: "United Kingdom",
@@ -58,10 +58,12 @@ const jsonLd: WithContext<LocalBusiness> = {
   },
   contactPoint: {
     "@type": "ContactPoint",
-    contactType: "book a mould treatment",
+    contactType: "Sales",
     telephone: "+447806615231",
     email: "stuart@bloxywebservices.co.uk",
   },
+  priceRange: "££",
+  sameAs: ["https://www.linkedin.com/in/stuart-bloxham/"],
   geo: {
     "@type": "GeoCoordinates",
     latitude: 51.94868891616687,
@@ -71,28 +73,7 @@ const jsonLd: WithContext<LocalBusiness> = {
   image: ["https://www.bloxie.co.uk/opengraph-image.png"],
   openingHoursSpecification: {
     "@type": "OpeningHoursSpecification",
-    dayOfWeek: [
-      {
-        "@type": "DayOfWeek",
-        name: "Monday",
-      },
-      {
-        "@type": "DayOfWeek",
-        name: "Tuesday",
-      },
-      {
-        "@type": "DayOfWeek",
-        name: "Wednesday",
-      },
-      {
-        "@type": "DayOfWeek",
-        name: "Thursday",
-      },
-      {
-        "@type": "DayOfWeek",
-        name: "Friday",
-      },
-    ],
+    dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
     opens: "08:00",
     closes: "17:30",
   },
