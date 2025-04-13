@@ -38,8 +38,7 @@ export const Footer = () => {
         </p>
         <br />
         <p className="font-[300] leading-3">
-          Email:{" "}
-          <span className="px-2 font-[400]">stuart@bloxywebservices.co.uk</span>
+          Email: <span className="px-2 font-[400]">stuart@bloxie.co.uk</span>
         </p>
       </div>
       <div className="border-b border-theme_black-900 w-[80%] m-auto mb-10"></div>

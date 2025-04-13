@@ -56,11 +56,12 @@ const jsonLd: WithContext<LocalBusiness> = {
     addressCountry: "United Kingdom",
     postalCode: "SG9 0EA",
   },
+  telephone: "+447806615231",
   contactPoint: {
     "@type": "ContactPoint",
     contactType: "Sales",
     telephone: "+447806615231",
-    email: "stuart@bloxywebservices.co.uk",
+    email: "stuart@bloxie.co.uk",
   },
   priceRange: "££",
   sameAs: ["https://www.linkedin.com/in/stuart-bloxham/"],
