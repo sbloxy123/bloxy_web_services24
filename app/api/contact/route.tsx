@@ -20,11 +20,13 @@ export async function POST(req: NextRequest, res: NextResponse) {
     />
   );
 
+  const emailHtmlValue = await emailHtml;
+
   const options = {
     from: smtpEmail,
     to: smtpEmail,
     subject: "New Form Submission from bloxie.co.uk",
-    html: emailHtml,
+    html: emailHtmlValue,
   };
 
   try {
