@@ -116,7 +116,7 @@ function Navbar() {
               //   isScrolled || darkText ? "text-theme_black-900" : "text-white"
               // }`}
               className={`w-[50px] aspect-square transition-all duration-300 ${
-                isScrolled || darkText ? "small:w-[50px]" : "small:w-[90px]"
+                isScrolled ? "small:w-[50px]" : "small:w-[70px]"
               }`}
               aria-label="home"
             >

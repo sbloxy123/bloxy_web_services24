@@ -7,7 +7,7 @@ import "./globals.css";
 import Navbar from "./components/global/Navbar";
 import { Footer } from "./components/global/Footer";
 import "react-toastify/dist/ReactToastify.css";
-// import CookieBanner from "./components/CookieBanner";
+import CookieBanner from "./components/CookieBanner";
 
 const inter = Inter({ subsets: ["latin"] });
 const poppins = Poppins({
@@ -99,7 +99,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        {/* <CookieBanner /> */}
+        <CookieBanner />
       </body>
 
       <GoogleAnalytics gaId="G-M0Q3NR35G3" />

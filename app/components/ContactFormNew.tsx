@@ -73,10 +73,12 @@ const ContactFormNew = () => {
               </h2>
               <div className="px-[5%] small:px-layout-small">
                 {isLoading && (
-                  <div className="absolute h-full w-full top-0 bottom-0 left-0 right-0 bg-gray-300 opacity-30 flex justify-center items-center">
-                    <div className="h-20 w-20 bg-white rounded-lg flex justify-center items-center">
+                  <div className="absolute h-full w-full inset-0 bg-gray-600 opacity-50 flex justify-center items-center z-50 backdrop:blur-md">
+                    <div className="loading"></div>
+
+                    {/* <div className="h-20 w-20 bg-white rounded-lg flex justify-center items-center">
                       <div className="animate-spin bg-white text-4xl">⏳</div>
-                    </div>
+                    </div> */}
                   </div>
                 )}
                 <div className="flex flex-wrap -m-2">
@@ -121,7 +123,7 @@ const ContactFormNew = () => {
                   </div>
 
                   {/* Phone Field */}
-                  <div className="p-2 w-full xsmall:w-1/2 ">
+                  <div className="p-2 pr-6 w-full xsmall:w-1/2 ">
                     <div className="relative">
                       <label className="form-control-label leading-7 text-sm text-theme_white-900">
                         Phone Number:
