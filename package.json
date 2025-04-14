@@ -30,7 +30,6 @@
     "zod-formik-adapter": "^1.2.0"
   },
   "devDependencies": {
-    "@react-email/components": "^0.0.9",
     "@types/node": "^20",
     "@types/nodemailer": "^6.4.9",
     "@types/nodemailer-smtp-transport": "^2.7.5",
