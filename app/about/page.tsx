@@ -7,6 +7,7 @@ import ContactForm from "../components/ContactForm";
 import WhyNext from "../components/WhyNext";
 import { ScrollArrow } from "../components/global/ScrollArrow";
 import { Services } from "../components/Services";
+import ContactFormNew from "../components/ContactFormNew";
 
 export default function About() {
   const fadeInAnimationVariants = {
@@ -397,7 +398,7 @@ export default function About() {
       </section>
       <Services />
 
-      <ContactForm />
+      <ContactFormNew />
     </main>
   );
 }

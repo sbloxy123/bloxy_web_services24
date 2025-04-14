@@ -3,6 +3,7 @@ import { Services } from "./components/Services";
 import { Projects } from "./components/Projects";
 import ContactForm from "./components/ContactForm";
 import { ScrollArrow } from "./components/global/ScrollArrow";
+import ContactFormNew from "./components/ContactFormNew";
 
 export default function Home() {
   return (
@@ -21,7 +22,9 @@ export default function Home() {
           </h2>
           <Projects />
         </div>
-        <ContactForm />
+        <div className="relative py-48">
+          <ContactFormNew />
+        </div>
       </div>
     </main>
   );

@@ -5,6 +5,7 @@ import ContactForm from "../components/ContactForm";
 import { Projects } from "../components/Projects";
 import { ScrollArrow } from "../components/global/ScrollArrow";
 import headerImage from "@/public/images/site/laptop.png";
+import ContactFormNew from "../components/ContactFormNew";
 
 export default function ProjectsPage() {
   return (
@@ -88,7 +89,7 @@ export default function ProjectsPage() {
         </div>
       </section>
 
-      <ContactForm />
+      <ContactFormNew />
     </main>
   );
 }

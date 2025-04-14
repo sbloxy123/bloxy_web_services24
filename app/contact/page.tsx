@@ -1,6 +1,7 @@
 "use client";
 
 import ContactForm from "../components/ContactForm";
+import ContactFormNew from "../components/ContactFormNew";
 import { ScrollArrow } from "../components/global/ScrollArrow";
 import { motion } from "framer-motion";
 
@@ -28,7 +29,7 @@ export default function Contact() {
           </motion.div>
         </div>
       </section>
-      <ContactForm />
+      <ContactFormNew />
     </main>
   );
 }

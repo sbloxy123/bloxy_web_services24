@@ -1,13 +1,4 @@
 /* CONTACT FORM */
-.my-formy {
-}
-.login-title {
-  /* text-align: center;
-  font-size: 30px;
-  letter-spacing: 2px;
-  font-weight: bold;
-  margin-bottom: 3rem; */
-}
 
 textarea::-webkit-scrollbar {
   width: 0.3em;
@@ -29,10 +20,13 @@ input:focus {
 .form-control-label {
   font-size: 14px;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 input[type="text"],
 input[type="email"],
-textarea[type="message"] {
+input[type="phone"],
+textarea[name="message"] {
+  display: block;
   background: var(--green);
   border: none;
   border-bottom: 2px solid rgb(247, 214, 182, 1);
@@ -44,6 +38,7 @@ textarea[type="message"] {
   padding: 8px 12px;
   color: rgb(247, 214, 182, 1);
   font-size: 1.6rem;
+  width: 100%;
 }
 
 input:-webkit-autofill:focus,
