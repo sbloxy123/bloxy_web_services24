@@ -1,6 +1,6 @@
 "use client";
 
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 import ContactFormNew from "../components/ContactFormNew";
 import { ScrollArrow } from "../components/global/ScrollArrow";
 import { motion } from "framer-motion";

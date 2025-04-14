@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 import { Projects } from "../components/Projects";
 import { ScrollArrow } from "../components/global/ScrollArrow";
 import headerImage from "@/public/images/site/laptop.png";

@@ -3,7 +3,7 @@
 import Image from "next/image";
 import me from "@/public/images/site/me.jpg";
 import { motion } from "framer-motion";
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 import WhyNext from "../components/WhyNext";
 import { ScrollArrow } from "../components/global/ScrollArrow";
 import { Services } from "../components/Services";

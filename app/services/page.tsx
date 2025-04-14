@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import ContactForm from "../components/ContactForm";
+// import ContactForm from "../components/ContactForm";
 import { ServicePageIntro } from "../components/ServicePageIntro";
 import { DesignInfo } from "../components/DesignInfo";
 import { DevelopmentInfo } from "../components/DevelopmentInfo";
