@@ -20,12 +20,12 @@ export const Services = () => {
     <div
       className={`services__container ${
         isHomepage && "mt-[-100px]"
-      } bg-theme_black-900 relative z-30  small:mt-0`}
+      } bg-theme_black-900 relative z-30  `}
     >
       <div
         className={`${
           isHomepage && "hero__border__gradient"
-        } absolute content-none bottom-[90%] w-full h-[30%] small:h-[60%]`}
+        } absolute content-none bottom-[90%] w-full h-[30%] small:h-[50%]`}
       ></div>
 
       <section itemScope itemType="https://schema.org/CreativeWork">
