@@ -24,7 +24,7 @@ export default function Contact() {
               Services.
             </h1>
             <p className="capitalize tracking-[0.2rem] text-[1.8rem] text-theme_black-900">
-              Can I help you?
+              Let&apos;s chat!
             </p>
           </motion.div>
         </div>

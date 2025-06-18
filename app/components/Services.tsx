@@ -79,11 +79,13 @@ export const Services = () => {
               })}
             </div>
           </div>
-          <ButtonLink
-            buttonText="Learn More"
-            url="/services"
-            aria="learn more about my services"
-          />
+          <div className="w-fit mx-auto">
+            <ButtonLink
+              buttonText="Learn More"
+              url="/services"
+              aria="learn more about my services"
+            />
+          </div>
         </div>
       </section>
     </div>

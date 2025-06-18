@@ -68,7 +68,7 @@ export const Projects = () => {
               <div
                 className={`${
                   index % 2 === 0 && "md:ml-auto"
-                } md:w-[80%] mb-10 md:mb-0`}
+                } md:w-[90%] mb-10 md:mb-0`}
               >
                 {/* ==== DETAILS */}
                 {summary.map((para) => (
@@ -112,6 +112,9 @@ export const Projects = () => {
                     if (tagName === "Gatsby.js") {
                       tagColor = "bg-gray-200";
                     }
+                    if (tagName === "Annimations") {
+                      tagColor = "bg-lime-300";
+                    }
 
                     return (
                       <motion.p
@@ -121,7 +124,7 @@ export const Projects = () => {
                         whileInView="animate"
                         custom={index}
                         viewport={{ once: true }}
-                        className={`${tagColor} py-1 w-fit border-2 border-black px-2 uppercase font-normal text-[1.1rem] text-theme_black-900`}
+                        className={`${tagColor}  py-1 w-fit border-2 border-black px-2 uppercase font-normal text-[1.1rem] text-theme_black-900`}
                       >
                         {tagName}
                       </motion.p>

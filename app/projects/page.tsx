@@ -19,7 +19,7 @@ export default function ProjectsPage() {
               Projects.
             </h1>
             <p className="capitalize tracking-[0.2rem] text-[1.8rem] text-theme_black-900">
-              Placeholder text
+              See my work
             </p>
           </div>
           <div className="projects__header__image--container absolute bottom-0 left-0 right-0 mx-auto max-w-screen-lg ">

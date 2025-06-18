@@ -47,7 +47,7 @@ const projectData = {
       summary: [
         "A comprehensive redesign and migration of an outdated e-commerce site from OpenCart to a cutting-edge Next.js and Medusa.js platform. The revamped site provides the client full control over inventory and fulfillment through an intuitive Medusa.js admin interface. This project encompassed everything from initial design to development, including customised email templates and robust hosting solutions. Additionally, the transition to Stripe as the payment provider significantly reduced transaction fees, enhancing financial efficiency for the client. This fully customised website now better serves their valued customers, offering a streamlined, user-friendly experience.",
       ],
-      date_completed: "2023 - PRESENT",
+      date_completed: "2024 - PRESENT",
       preview_img: "/images/project_graphics/lce/Group6.png",
       tags: ["E-Commerce", "Design", "Development", "Next.js", "Hosting"],
     },
@@ -62,6 +62,18 @@ const projectData = {
       preview_img: "/images/project_graphics/rosco/rosco.png",
       tags: ["Development", "Next.js", "Hosting", "Content Management System"],
       url: "https://www.roscoandperlini.co.uk/",
+    },
+
+    {
+      id: 6,
+      title: "stuartbloxham.co.uk",
+      summary: [
+        "My personal website, built using the latest technologies, showcases my skills, experience, and creativity to prospective contract and full-time work. The site features smooth page transitions, engaging animations, and an eye-catching design with bold colours and layered backgrounds to keep users immersed as they scroll. Developed with accessibility in mind, it meets strong WCAG standards to ensure an inclusive user experience. The build is structured around a modular component system, allowing for clean, reusable code and future scalability. Powered by Next.js, the site is fast, responsive, and fully optimized across devices.",
+      ],
+      date_completed: "2024",
+      preview_img: "/images/project_graphics/stuartbloxham/stuartbloxham.png",
+      tags: ["Development", "Design", "Next.js", "Hosting", "Annimations"],
+      url: "https://www.stuartbloxham.co.uk/",
     },
   ],
 };
