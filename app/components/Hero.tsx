@@ -33,11 +33,11 @@ const Hero = () => {
                 width={100}
               />
             </div>
-            <h1 className="text-white font-sans text-center mx-auto text-[clamp(2rem,4.3cqw,2.8rem)] font-semibold w-full max-w-[500px] tracking-wider text-balance">
+            <h1 className="text-theme_peach-900 font-sans text-center mx-auto text-[clamp(2rem,4.3cqw,2.8rem)] font-semibold w-full max-w-[500px] tracking-wider text-balance">
               Designing and developing websites as a freelance partner to
               ambitious businesses.
             </h1>
-            <p className="text-white text-[1.4rem] mt-[2rem] max-w-[600px] text-center mx-auto leading-[1.8em] text-balance">
+            <p className="text-white text-[1.6rem] mt-[2rem] max-w-[600px] text-center mx-auto leading-[1.8em] text-balance">
               I collaborate with businesses to design and develop bespoke sites
               that are as functional as they are beautiful. Using the latest web
               technologies and best practices, I create high-quality solutions
